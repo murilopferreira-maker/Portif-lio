@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+    color: #334155;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+hr {
+    display: none;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 28px;
+    margin-bottom: 24px;
+    border: 1px solid #dbeafe;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: linear-gradient(135deg, #ffffff, #eff6ff);
+    border-top: 5px solid #2563eb;
+}
+
+.perfil img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #2563eb;
+    object-fit: cover;
+    background-color: #dbeafe;
+}
+
+h1 {
+    color: #1e3a8a;
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+}
+
+h2 {
+    color: #1d4ed8;
+    border-bottom: 2px solid #93c5fd;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+    font-size: 1.4rem;
+}
+
+h3 {
+    color: #1e40af;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1e3a8a;
+    text-decoration: underline;
+}
+
+.projetos {
+    background-color: #f8fafc;
+}
+
+.lista-projetos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.projeto {
+    background-color: #ffffff;
+    border: 1px solid #bfdbfe;
+    border-left: 5px solid #2563eb;
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+
+.projeto a {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.contatos p {
+    background-color: #eff6ff;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+}
+
+.contatos a {
+    word-break: break-word;
+}
+
+footer {
+    text-align: center;
+    color: #64748b;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+
+
